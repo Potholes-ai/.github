@@ -7,7 +7,7 @@ an IoT Systems that allows localisation and visualization of potholes to monitor
 # IoT System Architecture
 
 ![IoT System Architecture](./assets/iot-app-architecture.jpg)
-we can break the system into 5 componenets :
+we can break the system into 3 subsytems :
 
 ## Data Generation
 
@@ -21,7 +21,7 @@ we can break the system into 5 componenets :
 - Mongodb
 - 🚧 Change Streams (Web Sockets)
 
-##  ![Frontend (Map)](https://github.com/Potholes-ai/frontend-potholes-ai)
+##  [Frontend (Map)](https://github.com/Potholes-ai/frontend-potholes-ai)
 
 - Fetch API
 - Leaflet
