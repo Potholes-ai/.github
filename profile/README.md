@@ -2,7 +2,7 @@
 
 ### _SafeRoad_ is a system that allows localisation and visualization of potholes to monitor the quality of roads (we have too many in our ~~beloved~~ country Morocco).
 
-![Web Application](./../assets/amsa6-pothole-detection.jpg)
+![Web Application](./assets/amsa6-pothole-detection.jpg)
 
 ## The System Architecture
 
@@ -17,7 +17,7 @@ flowchart LR
 
 ```
 
-![IoT System Architecture](./../assets/iot-app-architecture.jpg)
+![IoT System Architecture](./assets/iot-app-architecture.jpg)
 
 we can break the system into 3 subsytems :
 
