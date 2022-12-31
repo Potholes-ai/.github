@@ -27,7 +27,7 @@ we can break the system into 3 subsytems :
 | :----------: | :-------------------------------------------------: | :------------------------------------------------: | :----------------------------------------------------------: |
 |   Language   |                     Javascript                      |                     Javascript                     |                            Python                            |
 | Technologies |             Leaflet + Socket.io Client              |  NodeJS + ExpressJS + MongoDB + Socket.io Server   | Requests + GPS + Raspberry PI + PI Camera + Huawei 4G Dongle |
-|    Repos     | https://github.com/Potholes-ai/frontend-potholes-ai | https://github.com/Potholes-ai/backend-potholes-ai |   https://github.com/Potholes-ai/smart-things-potholes-ai    |
+|    Repo     | https://github.com/Potholes-ai/frontend-potholes-ai | https://github.com/Potholes-ai/backend-potholes-ai |   https://github.com/Potholes-ai/smart-things-potholes-ai    |
 
 # Demonstration Video
 
