@@ -9,15 +9,17 @@
 ```mermaid
 flowchart LR
 
-    Frontend-->Backend;
-    Backend-->Frontend;
-
-    SmartThings--> Backend;
-    id1[(Database)]<--->Backend;
+    Frontend--GET-->Backend;
+    Backend<--WS-->Frontend;
+Backend<-->id1[(MongoDB)];
+    SmartThings--POST--> Backend;
+    
 
 ```
-
+<!--
 ![IoT System Architecture](./assets/iot-app-architecture.jpg)
+-->
+
 
 we can break the system into 3 subsytems :
 
