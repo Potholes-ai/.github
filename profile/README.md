@@ -10,8 +10,8 @@
 flowchart LR
 
     Frontend--GET list of potholes-->Backend;
-    Backend<--WebSockets new added pothole)-->Frontend;
-Backend<-->id1[(MongoDB)];
+    Backend<--WebSockets new added pothole-->Frontend;
+    Backend<-->id1[(MongoDB)];
     SmartThings--POST pothole position--> Backend;
 
 
