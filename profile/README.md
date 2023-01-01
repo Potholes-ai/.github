@@ -9,10 +9,10 @@
 ```mermaid
 flowchart LR
 
-    Frontend--GET-->Backend;
-    Backend<--WS-->Frontend;
+    Frontend--GET(Positions of Potholes)-->Backend;
+    Backend<--WebSockets(new added pothole)-->Frontend;
 Backend<-->id1[(MongoDB)];
-    SmartThings--POST--> Backend;
+    SmartThings--POST(Positions of Potholes)--> Backend;
 
 
 ```
