@@ -9,10 +9,10 @@
 ```mermaid
 flowchart LR
 
-    Frontend--GET(Positions of Potholes)-->Backend;
-    Backend<--WebSockets(new added pothole)-->Frontend;
+    Frontend--GET list of potholes-->Backend;
+    Backend<--WebSockets new added pothole)-->Frontend;
 Backend<-->id1[(MongoDB)];
-    SmartThings--POST(Positions of Potholes)--> Backend;
+    SmartThings--POST pothole position--> Backend;
 
 
 ```
@@ -25,8 +25,8 @@ we can break the system into 3 subsytems :
 
 |              |                      Frontend                       |                      Backend                       |                         SmartThings                          |
 | :----------: | :-------------------------------------------------: | :------------------------------------------------: | :----------------------------------------------------------: |
-|   Language   |                     Javascript                      |                     Javascript                     |                            Python                            |
-| Technologies |             Leaflet + Socket.io Client              |  NodeJS + ExpressJS + MongoDB + Socket.io Server   | Requests + GPS + Raspberry PI + PI Camera + Huawei 4G Dongle |
+|   Language   |                     Typescript                      |                     Javascript                     |                            Python                            |
+| Technologies |             React + Leaflet + Socket.io Client              |  NodeJS + ExpressJS + MongoDB + Socket.io Server   | Requests + GPS + Raspberry PI + PI Camera + Huawei 4G Dongle |
 |    Repo     | https://github.com/Potholes-ai/frontend-potholes-ai | https://github.com/Potholes-ai/backend-potholes-ai |   https://github.com/Potholes-ai/smart-things-potholes-ai    |
 
 # Demonstration Video
