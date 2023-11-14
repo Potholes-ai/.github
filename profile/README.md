@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-### _SafeRoad_ is a system that allows localisation and visualization of potholes to monitor the quality of roads (we have too many in my beloved country 🇲🇦).
+### _SafeRoad_ is a system that allows localisation and visualization of potholes to monitor the quality of roads.
 
 ![Web Application](./assets/amsa6-pothole-detection.jpg)
 
